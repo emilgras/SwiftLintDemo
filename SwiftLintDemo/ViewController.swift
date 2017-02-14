@@ -10,16 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private let thisConstantNameIsTooLong = "Hello World!"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        ccFunction()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func ccFunction() {
+        
+        let color = "red"
+        let attr = "rose"
+        
+        if true {
+            if color == "red" {
+                switch attr {
+                case "mailbox":
+                    
+                    break
+                case "rose":
+                    
+                    break
+                default:
+                    break
+                }
+            } else if color == "green" {
+                
+            } else {
+                
+            }
+        }
     }
-
 
 }
-
