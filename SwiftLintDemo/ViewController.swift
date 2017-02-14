@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private let thisConstantNameIsTooLong = "Hello World!"
+    private let thisWillMakeAWarning = "Hello World!"
+    private let thisConstantWillMakeAnErrorForBeingTooLong = "Hello World!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
